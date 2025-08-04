@@ -15,12 +15,12 @@ body {
 
 h1, h2, h5 {
     color: var(--cor-secundaria);
-    font-weight: 700;
+    font-weight: 800;
 }
 
-.lead, .btn-link {
+.lead,h3 .btn-link {
     color: var(--cor-destaque);
-    font-weight: 700;
+    font-weight: 800;
 }
 
 a, .btn-link:hover {
@@ -30,4 +30,15 @@ a, .btn-link:hover {
 a:hover{
     color: var(--cor-destaque);
 }
-
+.container {
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    align-items:center; /* Alinha os itens à direita */
+    height: 500px; /* Define a altura do contêiner */
+  }
+  
+  .card {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
